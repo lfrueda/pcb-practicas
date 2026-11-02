@@ -1,0 +1,10 @@
+# Altium: archivos que se generan solos
+History/
+Project Logs for*/
+__Previews/
+Project Outputs for Free Documents/
+*.SchDocPreview
+*.PcbDocPreview
+~$*
+*.LOG
+*.bak
