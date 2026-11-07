@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Altium%20Designer-26-A5915F?logo=altiumdesigner&logoColor=white" alt="Altium Designer 26">
+  <img src="https://img.shields.io/badge/Altium%20Designer-26-A5915F" alt="Altium Designer 26">
   <img src="https://img.shields.io/badge/pr%C3%A1cticas-1-2ea043" alt="prácticas: 1">
   <img src="https://img.shields.io/badge/estado-aprendiendo-1f6feb" alt="estado: aprendiendo">
 </p>
