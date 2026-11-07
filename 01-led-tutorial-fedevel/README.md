@@ -26,6 +26,12 @@ Mi primera placa en Altium Designer, hecha de punta a punta siguiendo el tutoria
 
 Costo de partes: **≈ 1.05 USD por placa** (DigiKey, Cut Tape, octubre 2026).
 
+La BOM la generé con la plantilla de Excel de Robert, [*BOM Purchase FEDEVEL Live*](https://github.com/FEDEVEL/youtube-altium-quick-tutorial/blob/main/BOM%20Purchase%20FEDEVEL%20Live.xltx):
+
+<p align="center">
+  <img src="img/bom.png" alt="BOM generada con la plantilla de FEDEVEL" width="95%">
+</p>
+
 Los símbolos y los footprints los hice a mano: los pads salen del *land pattern* de cada fabricante y llevan modelo 3D y capa de assembly.
 
 ## Reglas de diseño
@@ -56,7 +62,7 @@ Todas las salidas se generan desde el Output Job (`LED_Job.OutJob`):
   <img src="img/outjob.png" alt="Output Job con todas las salidas de fabricación" width="90%">
 </p>
 
-Para mandarla a fabricar, los **Gerbers + NC Drill** están en un zip en [Releases](../../releases).
+Para mandarla a fabricar, los **Gerbers + NC Drill** están en un zip en [Releases](https://github.com/lfrueda/pcb-practicas/releases/tag/01-led-v1).
 
 ## Qué aprendí
 
@@ -65,6 +71,15 @@ Para mandarla a fabricar, los **Gerbers + NC Drill** están en un zip en [Releas
 - Qué hace cada capa: cobre, máscara (Solder), pasta (Paste), serigrafía (Overlay), assembly y board outline.
 - Revisar las violaciones con el DRC y revisar los Gerbers con un visor (ViewMate) antes de fabricar.
 - En AD26, la BOM solo trae precio y stock si cada componente tiene **Supplier Links**.
+
+## Referencias
+
+- **Tutorial:** [Altium Designer 22 Tutorial – Quick & Easy | Step by Step](https://www.youtube.com/watch?v=PqFtSpAXB9Q) — Robert Feranec (FEDEVEL).
+- **Plantilla de la BOM:** [*BOM Purchase FEDEVEL Live* (.xltx)](https://github.com/FEDEVEL/youtube-altium-quick-tutorial/blob/main/BOM%20Purchase%20FEDEVEL%20Live.xltx), del repo de Robert. No la incluyo aquí; se descarga de su GitHub.
+- **Partes, datasheets y modelos 3D:** [DigiKey](https://www.digikey.com).
+- **Pads de la resistencia 0805:** Yageo, [*Chip resistors mounting*](https://yageogroup.com/content/Resource%20Library/Product%20Guide-Catalog/yageo_PYu-R_Mount_10_19050818_343.pdf).
+- **Pads del LED:** [datasheet de VCC `LSM0603453V`](https://www.vcclite.com/wp-content/uploads/products/LSM0603453V/datasheet/LSM0603453V-Datasheet-Rev-2.pdf).
+- **Revisión de Gerbers:** [ViewMate](https://www.pentalogix.com/es/software_downloads/viewmate-gerber-viewer) (PentaLogix, gratis).
 
 ## Créditos
 
