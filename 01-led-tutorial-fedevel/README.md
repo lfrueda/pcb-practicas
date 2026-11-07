@@ -50,6 +50,12 @@ El último DRC salió con **0 violaciones** (reporte en `Project Outputs for LED
 | `LED_Job.OutJob` | Configuración de todas las salidas |
 | `Project Outputs for LED_Youtube/` | Gerbers, NC Drill, BOM, Pick and Place, PDFs (schematic, capas 1:1, assembly, 3D) y STEP de la placa |
 
+Todas las salidas se generan desde el Output Job (`LED_Job.OutJob`):
+
+<p align="center">
+  <img src="img/outjob.png" alt="Output Job con todas las salidas de fabricación" width="90%">
+</p>
+
 Para mandarla a fabricar, los **Gerbers + NC Drill** están en un zip en [Releases](../../releases).
 
 ## Qué aprendí
