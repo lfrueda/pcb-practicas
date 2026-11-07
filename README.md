@@ -1,4 +1,4 @@
-<h1 align="center">🔧 pcb-practicas</h1>
+<h1 align="center">pcb-practicas</h1>
 
 <p align="center">
   Repo de <b>tutoriales y prácticas</b> de diseño de PCB en Altium Designer.<br>
@@ -19,6 +19,4 @@
 
 | | Práctica | Basada en | Estado |
 |:---:|---|---|:---:|
-| <img src="01-led-tutorial-fedevel/img/pcb-3d.png" alt="Placa LED" width="120"> | **[01 · Placa LED](01-led-tutorial-fedevel/)**<br>20 × 20 mm · 2 capas · 2 LEDs | Tutorial de Altium de Robert Feranec ([FEDEVEL](https://www.youtube.com/watch?v=PqFtSpAXB9Q)) | ✅ Terminada |
-
-Mis diseños propios van en repos aparte; aquí solo van tutoriales y ejercicios.
+| <img src="01-led-tutorial-fedevel/img/pcb-3d.png" alt="Placa LED" width="120"> | **[01 · Placa LED](01-led-tutorial-fedevel/)**<br>20 × 20 mm · 2 capas · 2 LEDs | Tutorial de Altium de Robert Feranec ([FEDEVEL](https://www.youtube.com/watch?v=PqFtSpAXB9Q)) | Terminada |
